@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varíaveis e Funções - Exercício 4</title>
+    <style>
+        body {
+            background-image: url("https://s2.glbimg.com/qHr-F4_LmyLo9ac4RKR_DETG7pk=/e.glbimg.com/og/ed/f/original/2020/05/09/jaroslaw-kwoczala-ynwgxmkpycy-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            width: 60%;
+            margin-top: 23%;
+            padding-left: 5%;
+            color: linen;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+      
+        #erro {
+            color:yellow;
+            font-size: 20px;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+        .box {
+            margin-top: 10%;
+            text-align: center;
+        }
+        label {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #temp-inicial, #opcoes-temp, #btn-converter{
+            font-size: medium;
+        }
+    </style>
+    <script src="exe4.js"></script>
+</head>
+
+<body>
+    <div class="container">
+            <h2>Faça um programa que leia do usuário uma temperatura e
+                converta-a para graus Fahrenheit ou Celsius.
+            </h2>
+            <div class="box">
+                <p id="erro"></p>
+                <label for="temp-inicial">Temperatura</label>
+                <input type="text" name="" id="temp-inicial">
+                <select name="opcoes" id="opcoes-temp">
+                    <option value="fahrenheit">F para ºC</option>
+                    <option value="celsius">ºC para F</option>
+                </select>
+                <input type="submit" name="" id="btn-converter" value="Converter">
+                <h3 id="resultado"></h3>
+            </div>
+        
+
+    </div>
+
+
+</body>
+
+</html>
